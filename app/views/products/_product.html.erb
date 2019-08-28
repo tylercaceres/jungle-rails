@@ -2,8 +2,7 @@
   <header>
     <%= link_to product do %>
       <% if Rails.env.production? %>
-        <%# <%= cl_image_tag("jungle/#{product.image}") %>
-        <%= <img src="https://res.cloudinary.com/tylercaceres/image/upload/v1567017304/jungle/#{product.image}"> %>
+        <%= cl_image_tag("jungle/#{product.image}") %>
       <% else %>
         <%= image_tag product.image.thumb, alt: product.name %>
       <% end %>
