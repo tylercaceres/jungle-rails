@@ -25,16 +25,29 @@ This project is not just about learning a new language, ecosystem and framework.
 ## Final Product
 
 `home page`
+
 !["home page"](./docs/home_page.png)
+
 `sign up authentication`
+
 !["sign up authentication"](./docs/sign_up_authentication.png)
+
 `user logged in - updated nav bar`
+
 !["logged in"](./docs/logged_in.png)
+
 `sold out item flag`
+
 !["sold out item flag"](./docs/sold_out.png)
+
 `shopping cart view`
+
 !["shopping cart view"](./docs/cart.png)
+
 `filter by categories`
+
 !["filter by categories"](./docs/categories.png)
+
 `admin dashboard - dropdown showing other capabilities`
+
 !["admin dashboard - dropdown showing other capabilities"](./docs/admin.png)
