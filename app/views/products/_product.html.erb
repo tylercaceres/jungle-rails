@@ -2,6 +2,9 @@
   <header>
     <%= link_to product do %>
       <% if Rails.env.production? %>
+        <%= puts product %>
+        <%= puts product.inspect %>
+        <%= puts product.image %>
         <%= cl_image_tag("jungle/#{product.image}") %>
       <% else %>
         <%= image_tag product.image.thumb, alt: product.name %>
