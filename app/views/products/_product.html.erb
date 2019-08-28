@@ -2,7 +2,7 @@
   <header>
     <%= link_to product do %>
       <% if Rails.env.production?%>
-        <%= <%= cl_image_tag("jungle/apparel2.jpg") %>
+        <%= cl_image_tag("jungle/apparel2.jpg") %>
       <% else %>
         <%= image_tag product.image.thumb, alt: product.name %>
       <% end %>
