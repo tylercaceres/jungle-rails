@@ -1,6 +1,7 @@
 <article class="product">
   <header>
     <%= link_to product do %>
+      <% raise product.inspect %>
       <% if Rails.env.production?%>
         <%= cl_image_tag("jungle/#{product.image}") %>
       <% else %>
