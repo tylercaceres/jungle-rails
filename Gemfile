@@ -1,7 +1,4 @@
 source 'https://rubygems.org'
-# ruby "2.3.5"
-# ruby ENV['CUSTOM_RUBY_VERSION'] ||"2.5.5"
-# ruby "3.0.3"
 ruby "2.3.5"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
